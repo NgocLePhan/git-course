@@ -1,0 +1,2 @@
+Câu lệnh User: git config --global user.name"username"
+Câu lệnh Email: git config --global user.mail"usemail address"
