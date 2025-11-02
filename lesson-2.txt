@@ -1,0 +1,13 @@
+Câu 1:
+    a. git init: khởi tạo thư mục quản lý bởi git
+    b. git add <file_name>: đưa 1 file vào vùng staging
+    c. git add .: đưa all file vào cùng staging
+    d. git commit -m “message”: commit file lên Repository
+
+Câu 2: 
+    a. 3 file sẽ nằm tại máy local
+    b. khởi tạo thư mục lesson-2 được quản lý bởi git
+    c. do không có câu lệnh add nên sẽ commit rỗng (hoặc bị lỗi)
+    d. add file 1 lên Staging
+    e. commit file 1 lên Repository
+    f. không file nào được add (hoặc sẽ bị báo lỗi)
