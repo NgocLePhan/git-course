@@ -1,0 +1,25 @@
+1. 
+    - git commit --amend: vào chế độ edit commit message
+    - git commit --amend -m”<message>”: thay đổi commit message mà không cần vào chế độ edit.
+    - git restore --staged <file>: đưa 1 file từ Staging về working directory
+    - git reset HEAD~1 : đưa 1 commit từ repository về working directory
+
+2. 
+    a. 3 file nẳm ở vùng working directory
+    b. khởi tạo thư mục lesson-3 được quản lý bởi git
+    c. do không có câu lệnh add nên sẽ commit rỗng
+    d. add file1 vào vùng Staging
+    e. commit file 1 lên Repository
+    f. add tất cả file vào vùng Staging
+    g. đưa file2 từ vùng Staging về lại Work directory
+    h. commit file1, file3 lên Repository
+    i. đưa file1, file2 từ Repository về lại wor directory
+
+3. 
+    a. khởi tạo thư mục lesson-3-git được quản lý bởi git
+    b. 3 file: file1.txt, file2.txt, oops/file3.txt, nằm ở vùng working directory
+    c. 
+        i. file file1.txt chuyển thành màu xám trên tree
+        ii. file oops/file3.txt chuyển thành màu xám trên tree (áp dụng tất cả các file được tạo folder oops)
+    d. add 2 file file1.txt, file2.txt vào vùng Staging
+    e. add 2 file file1.txt, file2.txt vào Repository.
