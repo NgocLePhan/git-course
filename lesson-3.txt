@@ -21,5 +21,5 @@
     c. 
         i. file file1.txt chuyển thành màu xám trên tree
         ii. file oops/file3.txt chuyển thành màu xám trên tree (áp dụng tất cả các file được tạo folder oops)
-    d. add 2 file file1.txt, file2.txt vào vùng Staging
-    e. add 2 file file1.txt, file2.txt vào Repository.
+    d. add file file2.txt vào vùng Staging, và 2 file file1.txt, oops/file3.txt sẽ ko dc đưa vào Staging
+    e. add file file2.txt vào Repository và 2 file file1.txt, oops/file3.txt sẽ ko dc đưa vào Repository.
